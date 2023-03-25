@@ -71,11 +71,13 @@ a {
 }
 
 .desktopNav {
+  width: 100%;
   display: none;
-  padding-inline: 7rem;
 }
 
 .desktopNav ul {
+  width: 80%;
+  margin-inline: auto;
   justify-content: end;
   align-items: center;
   gap: 5rem;
@@ -453,7 +455,7 @@ footer {
   }
 
   .explaination {
-    margin-top: 8rem;
+    margin-top: 5rem;
     display: flex;
     margin-inline: auto;
     width: fit-content;
@@ -541,17 +543,23 @@ footer {
   }
 }
 
-@media screen and (min-width: 2100px) {
+@media screen and (min-width: 1400px) {
   .hero {
-    padding-inline: 0 10rem;
+    width: 80vw;
+    padding-inline: 0;
     margin-inline: auto;
   }
   .vidContainer {
     margin-inline: auto;
-    left: 20rem;
+    top: 0;
     right: 0;
   }
-
+  .experience {
+    margin-top: 12rem;
+  }
+  .infoContainer p {
+    width: 30ch;
+  }
   .projects {
     max-width: 120rem;
     margin-inline: auto;
@@ -563,7 +571,9 @@ footer {
     max-height: 40rem;
     object-fit: cover;
   }
-
+  .explaination {
+    margin-top: 8rem;
+  }
   footer p,
   footer div,
   nav {
