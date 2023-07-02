@@ -27,9 +27,7 @@ let mm = gsap.matchMedia();
 
 mm.add("(min-width:1300px)",()=>{
 
-
     let animation = gsap.timeline();
-
 
     // animation.from("video",{ 
     //   yPercent:-100,duration: 2, ease: "power3.out"});
